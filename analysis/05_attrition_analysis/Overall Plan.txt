@@ -1,0 +1,30 @@
+measure used for all the models:  -siloutte + SSW normalized by the overall variance (SSW is between 0 and 1)
+
+models based on all the features
+
+Kmean
+	Optimizer (Grids Search)
+	Elbow (with the parames from Optimzer, checking for different clusters)
+	Decision: Best number of cluster, params, and business Point of View
+
+Agglomerate
+	Optimizer (Grids Search)
+	Elbow (with the parames from Optimzer, checking for different clusters)
+	Dendogram
+	Decision: Best number of cluster and params (based on the dendogram gain/cost), and business Point of View
+
+Overall Business Decision
+	Choose the best algorithm  bsed on lowest number of cluster and measures from above models. 
+		and Based on Business Point of View.
+	Which number of cluster make more sense from a business stand point? 
+	Show one HeatMap
+	Define the differnt clusters in English
+
+
+
+TO DO:
+- Update the library to pass custom params to the model (Nikhil) Done
+- Update the MaxV3 code (Max) 
+- Meet to define the English version of the clusters (All)
+- Fill the MD First draft (All)
+- Review and clean MD/Notebook (All)
