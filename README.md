@@ -361,17 +361,18 @@ This was the second prediction task that was assigned to us - For the employees 
     - Models: Clustering (K-Means and Agglomerative)
     - Visualizing Clusters: Custom Heatmap Based Cluster Visualization
     - Model Tuning: Baysian Optimization
-    - Model Comparison: Elbow plots, Silhoutte Score
+    - Model Comparison: Elbow plots, Silhoutte Score, Custom metric to scale, weight and combine these 2 metrics
 * Libraries Used: 
     - Scikit-learn
     - **Custom developed library ("more") for visualization and clustering helper classes**
 
 ### Executive Summary:
 
+**Promoted employees** were clustered into 5 groups after evaluating various clustering methods. Two of these groups had a relatively higher attrition rate (around 1 in 4) than the other three (around 1 in 6). The factors that seemed to be highly correlated to the attrition in these 2 groups were 
+1. **Levels of Hierarchy:** Higher number of levels of hierarchy were correlated with higher attrition. This could be due to the fact that these employees feel far remved from the decision making process and dont feel a sense of ownership or buy-in. There are different approaches such as roundtables with leaders, anonymous surveys, or even an organizational restructure to reduce the number of layers in the organization to boost inclusion and reduce turnover rate.
+2. **Lack of Bonus:** This was especially true for promoted employees who had a lower tenure with the company. Furthermore this group had the largest number of employees (amongst the employees that were promoted), indicating that the awards program is not widely applied. This could also indicate there are not many opportunities for new and different job experiences (based on GJS and site variables), especially for low-tenured employees. A shadow program, job rotation, or mentorship program may help on improving employee best fit.
 
 ## A Note of Caution
 
-Correlation vs. Causation
-
-
+**Correlation vs. Causation:** While this analysis is focussed on using existing employee data, this is not a randomized experiment. Hence the findings can not be treated as causal. Nonetheless, this provides useful insights into the factors that could potentially impact promotability and attrition and point to areas that could be explored further by the Human Resourse department in order to improve outcomes. In the end, this analysis is meant to augment the informaton available to the HR department and the managers and not meant to be a replacement for the human element involved in making promotion decisions. 
 
